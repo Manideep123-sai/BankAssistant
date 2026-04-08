@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+langchain
+langgraph
+langchain-groq
+groq
+streamlit
+python-dotenv
+bcrypt
+pyjwt
+mysql-connector-python
+pydantic
+email-validator
+typing_extensions
