@@ -1,14 +1,15 @@
 from typing import Dict, Any
 
-from langchain_groq import ChatGroq
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
+from ..config import GEMINI_MODEL
 
 from .. import tools
 
 
 money_transfer_assistant_tools = [tools.money_transferer]
 
-llm = ChatGroq(model_name="llama-3.1-8b-instant")
+llm = ChatGoogleGenerativeAI(model=GEMINI_MODEL)
 
 
 def _build_system_prompt(bank_name: str, is_guest: bool) -> str:

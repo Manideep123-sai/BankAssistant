@@ -24,7 +24,7 @@ BankAI is a sophisticated, multi-agent banking assistant designed to provide a p
 ## Tech Stack
 - **Frontend**: Streamlit (Python)
 - **Agent Orchestration**: LangGraph
-- **LLM**: Llama 3.1 (via Groq)
+- **LLM**: Google Gemini 2.5 Flash (via Google Generative AI)
 - **Database**: 
   - MySQL (User Auth, Accounts, Transactions)
   - SQLite (Agent persistent memory)
@@ -40,7 +40,7 @@ SOURCE setup_db.sql;
 ### 2. Environment Configuration
 Create a `.env` file in the root directory and add your credentials:
 ```env
-GROQ_API_KEY=your_groq_api_key
+GOOGLE_API_KEY=your_gemini_api_key
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password

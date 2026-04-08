@@ -2,8 +2,7 @@ fastapi
 uvicorn[standard]
 langchain
 langgraph
-langchain-groq
-groq
+langchain-google-genai
 streamlit
 python-dotenv
 bcrypt
