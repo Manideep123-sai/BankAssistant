@@ -512,7 +512,12 @@ def page_chat():
                 <div class="bubble-row ai-row">
                     <div class="chat-bubble ai-bubble">
                         {badge}
-                        <div>{text}</div>
+                """,
+                unsafe_allow_html=True
+            )
+            st.markdown(text)
+            st.markdown(
+                f"""
                         <div class="timestamp">{ts}</div>
                     </div>
                 </div>

@@ -11,3 +11,4 @@ mysql-connector-python
 pydantic
 email-validator
 typing_extensions
+markdown
