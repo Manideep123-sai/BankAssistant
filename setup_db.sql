@@ -1,3 +1,6 @@
+-- Manideep Sai C
+-- Reg.no 23BCE0737
+
 CREATE DATABASE IF NOT EXISTS bank_chatbot;
 USE bank_chatbot;
 

@@ -1,3 +1,6 @@
+# Manideep Sai C
+# Reg.no 23BCE0737
+
 import mysql.connector
 from mysql.connector import pooling
 from .config import DB_CONFIG
